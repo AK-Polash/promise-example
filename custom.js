@@ -63,4 +63,6 @@ enroll()
   .then((value) => {
     console.log(value);
   })
-  .catch();
+  .catch((message) => {
+    console.log(message);
+  });
